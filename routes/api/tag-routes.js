@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Tag, Product, ProductTag } = require('../../models');
+const { Tag, Product, ProductTag } = require('../../models'); // ProductTag could be removed; not strictly required as associations don't require explicitly going "through:"
 
 // The `/api/tags` endpoint
 
