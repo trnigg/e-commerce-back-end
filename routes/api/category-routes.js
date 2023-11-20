@@ -50,7 +50,7 @@ router.put('/:id', async (req, res) => {
       }
     });
     if (!categoryData[0]) {
-      res.status(404).json({ message: 'Cannot find requested resource. Please check ID number.'});
+      res.status(404).json({ message: 'Cannot find requested resource. Please check ID number and/or request-body.'});
       return;
     }
     res.status(200).json(categoryData);
