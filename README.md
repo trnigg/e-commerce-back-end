@@ -47,6 +47,10 @@ To test/mimic the API functionality of the code, please note that you will need 
 2. With the server up and running, a number of calls can be made using your API client of choice. Please see the demo video below for examples of all the requests/db interactivity available.
 
 ### Demo Video
+Click on the thumbnail below for a detailed demo of the back-end capabilities.  
+Please note, the demo include the installation process. To skip this, and see only the routes being tested, go to 1:15 in the video.
+
+[![A video thumbnail of a blank Visual Studio window with an overlayed play button.](./assets/screenshots/screenshot_thumbnail.png)](https://drive.google.com/file/d/1u0BxVapz6avvzmo0uQduPBf01c7MI80O/view)
 
 ## Tests 
 - No tests have been written for this application.
