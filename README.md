@@ -1,11 +1,11 @@
 # E-commerce Back-end
 (`e-commerce-back-end` - Module 13 Challenge)  
 
-A functioning backend for an e-commerce site using mysql db and api routes
+A functioning backend for an e-commerce site using mysql databasing and API routing.
 
 ## Description
 - This application allows you view and modify (insert, update and delete) the employee data in your database via the command line.
-- It is written in JS using the [`Node.js`](https://nodejs.org/en) runtime environment, leveraging [`MySQL2 v^3.6.3`](https://www.npmjs.com/package/mysql2/v/3.6.3) for connecting and communicating with the `MySQL` database and using [Express v4.18.2](https://www.npmjs.com/package/express/v/4.18.2) for the web framework/server-functionality.
+- It is written in JS using the [`Node.js`](https://nodejs.org/en) runtime environment, leveraging [`MySQL2 v^3.6.3`](https://www.npmjs.com/package/mysql2/v/3.6.3) for connecting and communicating with the `MySQL` database (db) and using [Express v4.18.2](https://www.npmjs.com/package/express/v/4.18.2) for the web framework/server-functionality.
   - (For a full list of dependencies, please see [`package.json`](./package.json)  in the repo.)
 - The project is based of a large component of starter-code that was provided as part of coursework.
 - The use-case of this project is to incorporate this with an e-commerce front-end. However, to install and mimic the functionality this code provides, please follow the [description](#description) and [installation](#installation) guides below. 
@@ -13,7 +13,7 @@ A functioning backend for an e-commerce site using mysql db and api routes
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
-- [Usage / Demo](#usage-/-demo)
+- [Usage / Demo](#usage--demo)
     - [Usage](#usage)
     - [Demo Video](#demo-video)
 - [Tests](#tests)
@@ -33,8 +33,9 @@ To install the application:
 5. Initialise the database using the MySQL Shell:
     - Navigate to the directory containing `schema.sql` using the console, or open it in an integrated terminal.
     - In the console, enter `$ mysql -u root -p`, then when prompted enter your `MySQL` password.
-    - Finally, initialise the database by entering `source schema.sql;` .
-6. To seed the database with some sample data, return to the parent-folder containing the project files and enter `npm run seed` in your console.
+    - Finally, initialise the database by entering `source schema.sql;`.
+6. Modify the `.env.EXAMPLE` file with your credentials and rename as simply `.env`.
+7. To seed the database with some sample data, return to the parent-folder containing the project files and enter `npm run seed` in your console.
 
 ## Usage / Demo
 
